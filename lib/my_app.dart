@@ -10,7 +10,7 @@ class Myapp extends StatelessWidget {
           primarySwatch: Colors.red,
           textTheme: GoogleFonts.pacificoTextTheme()),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: LoginPage(),
     );
   }
 }
