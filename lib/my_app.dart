@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:trilhapp/page/home_page.dart';
+import 'package:trilhapp/imports.dart';
 
 class Myapp extends StatelessWidget {
   const Myapp({super.key});
@@ -8,11 +7,10 @@ class Myapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primarySwatch: Colors.red
-      ),
+          primarySwatch: Colors.red,
+          textTheme: GoogleFonts.pacificoTextTheme()),
       debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
   }
 }
-

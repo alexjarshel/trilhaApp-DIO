@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-
-import 'my_app.dart';
+import 'package:trilhapp/imports.dart';
 
 void main() {
   runApp(Myapp());
