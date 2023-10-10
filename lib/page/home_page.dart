@@ -28,25 +28,26 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Expanded(
-                child: Container(
-              width: double.infinity,
+            Container(
+              width: 200,
+              height: 200,
               color: Colors.cyan,
               child: Text(
-                'User actions',
-                style: GoogleFonts.acme(fontSize: 20),
+            'User actions',
+            style: GoogleFonts.acme(fontSize: 20),
               ),
-            )),
-            Expanded(
-              flex: 3,
-                child: Container(
-              width: double.infinity,
-              color: Colors.orange,
-              child: Text(
-                'Times Clicked = ${clicks.toString()}',
-                style: GoogleFonts.acme(fontSize: 20),
+            ),
+            SizedBox(
+              width: 100,
+              height: 100,
+              child: Container(
+                color: Colors.orange,
+                child: Text(
+                  'Times Clicked = ${clicks.toString()}',
+                  style: GoogleFonts.acme(fontSize: 20),
+                ),
               ),
-            )),
+            ),
             Expanded(
                 child: Container(
               width: double.infinity,
